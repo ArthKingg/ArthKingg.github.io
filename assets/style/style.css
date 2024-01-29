@@ -25,15 +25,66 @@
   header > div {
     padding: 12px 0;
   }
+  .UI {
+    color: darkgreen;
+  }
+  .Hello {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .Arth {
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
   .flex {
     display: flex;
   }
   .justify-between {
     justify-content: space-between;
   }
+  .items-center {
+    align-items: center;
+  }
   nav > a {
     margin-right: 48px;
   }
   nav > a:last-child{
     margin-right: 0;
+  }
+  .details {
+    max-width: 486px;
+  }
+  .KingImage > img {
+    width: 586px;
+    height: auto;
+  }
+  #Projects {
+    background-color:darkgreen;
+    font-size: 14px;
+    padding: 10px 24px;
+    border-radius: 12px;
+  }
+  #LinkedIn {
+    background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 24px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  #About {
+    background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 24px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  #Contacts {
+    background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 24px;
+    border-radius: 12px;
+    font-size: 14px;
   }
