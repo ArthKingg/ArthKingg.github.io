@@ -34,7 +34,7 @@
   }
   .Arth {
     font-size: 2rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
   .flex {
     display: flex;
@@ -58,7 +58,7 @@
     width: 500px;
     height: auto;
   }
-  #Projects {
+  #arthKing {
     background-color:darkgreen;
     border: 2px solid black;
     color: white;
@@ -66,6 +66,14 @@
     padding: 10px 24px;
     border-radius: 12px;
   }
+  /* #Projects {
+    background-color:darkgreen;
+    border: 2px solid black;
+    color: white;
+    font-size: 14px;
+    padding: 10px 24px;
+    border-radius: 12px;
+  } */
   /* #LinkedIn {
     background-color: white;
   color: black;
@@ -95,8 +103,14 @@
     margin: 0;
     box-sizing: border-box;
   }
-  footer{
+  /* footer{
     background-color: #111;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    padding: 24px;
+    font-size: 12px;
+    text-align: center;
   }
   .footerContainer{
     width: 100%;
@@ -104,31 +118,32 @@
     position:auto;
     left:0px;
     bottom:0px;
+  } */
+  .socials{
+    display:inline-block;
+    justify-content:flex-start;
+    margin-left: 20px;
   }
-  .socialIcons{
-    display: flex;
-    justify-content: center;
-  }
-  .socialIcons a{
+  .socials a{
     text-decoration: none;
     padding: 5px;
     background-color: white;
-    margin: 10px;
+    margin: 5px;
     border-radius: 20%
   }
 
-  .socialIcons a i{
-    font-size: 2em;
+  .socials a i{
+    font-size: 1em;
     color: black;
     opacity: 0.5s;
   }
 
-  .socialIcons a:hover{
+  .socials a:hover{
     background-color: #111;
     transition: 0.5s;
   }
 
-  .socialIcons a:hover i{
+  .socials a:hover i{
     color: white;
     transition: 0.5s;
   }
@@ -158,12 +173,22 @@
   .footerBottom{
     background-color: #000;
     padding: 20px;
-    text-align: center;
+    /* text-align:end; */
     position:fixed;
     left:0px;
     bottom:0px;
     height:60px;
     width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .copyright{
+    /* text-align: end; */
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px;
   }
   .footerBottom p{
     color: white;
@@ -172,6 +197,6 @@
     opacity: 0.7;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 200;
     margin: 0px 5px;
   }
