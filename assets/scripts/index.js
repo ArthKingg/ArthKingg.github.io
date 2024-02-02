@@ -1,8 +1,8 @@
+    let popup = document.getElementById("popup");
 
-// const body = document.body
-// const div = document.querySelector('div')
-// const spanHi = document.querySelector('#hi')
-// const spanBye = document.querySelector('#bye')
-
-// spanHi.style.color = "blue"
-// spanHi.style.backgroundColor = "yellow"
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
